@@ -1,12 +1,12 @@
 # Base? Base? Base? (Easy)
 
-### Author
+## Author
 daffainfo
 
-### Deskripsi
+## Deskripsi
 Aku dapat pesan rahasia dari hacker paling jago saat ini, tapi aku nggak tahu cara buat men "decode" pesan ini :(
 
-### Writeup
+## Writeup
 Flag diencode menggunakan beberapa encoding yaitu
 
 Plaintext -> base32 -> base45 -> base58 -> base85 -> base92
