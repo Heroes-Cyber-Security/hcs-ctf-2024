@@ -1,4 +1,4 @@
-# Guwendengkrip (Easy/Medium)
+# Guwendengkrip (Medium)
 
 ## Author
 mintcocs
@@ -9,4 +9,4 @@ kena ransom tapi bukan PDN?
 ## Writeup
 algo enkripsi dixor dengan 1 byte key
 
-tinggal dekrip xor dan save jpg
+tinggal decrypt xor dan save jpg
