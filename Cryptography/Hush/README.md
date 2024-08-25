@@ -5,6 +5,7 @@ idzoyy
 
 ## Deskripsi
 Mari belajar "hash"
+
 Suatu algoritma untuk mengonversi data sesuai format tertentu, yang tidak bisa dikembalikan ke data aslinya.
 data yang sama seharusnya memiliki hasil hash yang sama, dan data yang berbeda meskipun 1 byte seharusnya memiliki hasil hash yang berbeda.
 fungsi :
@@ -21,7 +22,8 @@ flag: HCS{c5d87a505f8a5590a6ccf659dc8014e}
 
 ## Solver script
 
-```import itertools
+```
+import itertools
 flag = ['dc80', '5590', '5f8a', '14e}', 'a6cc', 'c5d8', 'HCS{', 'f659', '7a50']
 permutations = itertools.permutations(flag)
 for perm in permutations:

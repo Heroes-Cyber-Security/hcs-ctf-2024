@@ -7,6 +7,6 @@ mintcocs
 kena ransom tapi bukan PDN?
 
 ## Writeup
-algo enkripsi dixor dengan 1 byte key
+algo enkripsi dixor dengan key dari hasil decompile
 
 tinggal decrypt xor dan save jpg
