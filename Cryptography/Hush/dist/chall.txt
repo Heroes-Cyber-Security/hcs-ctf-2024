@@ -1,0 +1,10 @@
+aku sedang belajar menggunakan md5 hash, untuk menghasilkan hash dari flag
+
+Waiting!!
+Generating Flag Hash...
+Scramble Flag...
+
+Oh tidakkk!!! aku lupa susunan flag yang asli dan hanya tersisa hashnya saja "83106e2e86716463f5d7e6363473559c"
+tolong bantu aku mencari susunan yang benar
+
+['dc80', '5590', '5f8a', '14e}', 'a6cc', 'c5d8', 'HCS{', 'f659', '7a50']
