@@ -1,4 +1,4 @@
-# Analisis Log (Med/Hard)
+# Analisis (Log)
 
 ## Author
 daffainfo
