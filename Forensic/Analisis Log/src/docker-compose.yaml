@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  heked-by:
+    build: .
+    restart: always
+    ports:
+      - "10031:1337"
