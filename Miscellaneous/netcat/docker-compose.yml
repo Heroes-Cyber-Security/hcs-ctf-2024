@@ -1,7 +1,0 @@
-services:
-  netcat:
-    build: .
-    ports:
-      - "1234:1234"
-    restart: unless-stopped
-    privileged: true

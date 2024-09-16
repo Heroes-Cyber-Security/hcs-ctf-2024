@@ -1,8 +1,8 @@
 services:
-  pwn-kizu:
+  misc-netcat:
     build: .
     ports:
-      - "2002:1338"
+      - "6001:1234"
     restart: unless-stopped
     privileged: true
-    container_name: pwn-kizu
+    container_name: misc-netcat
