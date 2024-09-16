@@ -1,8 +1,7 @@
-version: "3"
-
 services:
   for-analisis-log:
     build: .
     restart: always
     ports:
       - "3001:1337"
+    container_name: for-analisis-log
