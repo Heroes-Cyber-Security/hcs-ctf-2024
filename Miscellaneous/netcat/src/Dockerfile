@@ -1,9 +1,16 @@
-FROM pwn.red/jail
+FROM ubuntu:22.04
+ENV DEBIAN_FRONTEND noninteractive
 
-COPY --from=ubuntu:22.04 / /srv
-COPY flag.txt /srv/app/flag.txt
-COPY flag /srv/app/run
+RUN apt-get update && \
+    apt-get -y install curl \
+    build-essential libcunit1-dev libudev-dev socat
 
-RUN chmod 755 /srv/app/run
+RUN useradd ctf
+WORKDIR /home/ctf
+ADD . .
 
-ENV JAIL_MEM=5M JAIL_TIME=120 JAIL_PORT=1234
+RUN chown -R root:root  /home/ctf
+RUN chmod -R 555        /home/ctf
+
+EXPOSE 1234
+ENTRYPOINT ["socat", "TCP-LISTEN:1234,reuseaddr,fork,nodelay,su=ctf", "EXEC:'timeout 180 ./flag'"]
